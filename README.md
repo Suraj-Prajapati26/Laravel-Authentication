@@ -17,7 +17,7 @@ This is a Laravel 9 project that implements user authentication, password reset,
 
 4. Install JavaScript dependencies:*npm install*
 
-5. Create a copy of the `.env.example` file and rename it to `.env`. Update the necessary configuration values, such as database credentials.
+5. Create a copy of the `.env.example` file and rename it to `.env`. Update the necessary configuration values, such as database credentials and **SMTP** mail credentials using which you can send the password reset link to the users email.
 
 6. Generate an application key:*php artisan key:generate*
 
